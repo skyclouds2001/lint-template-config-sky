@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-standard",
+  "version": "1.0.0",
+  "description": "eslint config standard",
+  "scripts": {
+    "test": "npm run"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "standard"
+  ],
+  "author": "CSY",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/eslint-parser": "^7.18.9",
+    "eslint": "^8.20.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=8.10.0"
+  }
+}
