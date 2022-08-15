@@ -1,2 +1,2 @@
-# eslint-config-standard
+# eslint-config-sky
  
