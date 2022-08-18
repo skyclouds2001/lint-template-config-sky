@@ -1,9 +1,11 @@
 {
-  "name": "eslint-config-standard",
+  "name": "eslint-config-sky",
   "version": "1.0.0",
-  "description": "eslint config standard",
-  "scripts": {
-    "test": "npm run"
+  "description": "eslint standard config of skyclouds2001",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skyclouds2001/eslint-config-sky.git"
   },
   "keywords": [
     "eslint",
@@ -12,6 +14,10 @@
   ],
   "author": "CSY",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyclouds2001/eslint-config-sky/issues"
+  },
+  "homepage": "https://github.com/skyclouds2001/eslint-config-sky#readme",
   "devDependencies": {
     "@babel/core": "^7.18.10",
     "@babel/eslint-parser": "^7.18.9",
