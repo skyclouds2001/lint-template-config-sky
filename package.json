@@ -1,11 +1,11 @@
 {
-  "name": "eslint-config-sky",
+  "name": "eslint-template-sky",
   "version": "1.0.0",
-  "description": "eslint standard config of skyclouds2001",
+  "description": "eslint config template by skyclouds2001",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skyclouds2001/eslint-config-sky.git"
+    "url": "git+https://github.com/skyclouds2001/Eslint-Template-Sky.git"
   },
   "keywords": [
     "eslint",
@@ -15,9 +15,9 @@
   "author": "CSY",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skyclouds2001/eslint-config-sky/issues"
+    "url": "https://github.com/skyclouds2001/Eslint-Template-Sky/issues"
   },
-  "homepage": "https://github.com/skyclouds2001/eslint-config-sky#readme",
+  "homepage": "https://github.com/skyclouds2001/Eslint-Template-Sky#readme",
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
