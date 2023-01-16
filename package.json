@@ -1,23 +1,25 @@
 {
-  "name": "eslint-template-sky",
+  "name": "lint-template-sky",
   "version": "1.0.0",
-  "description": "eslint config template by skyclouds2001",
+  "description": "lint config template by skyclouds2001",
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skyclouds2001/Eslint-Template-Sky.git"
+    "url": "git+https://github.com/skyclouds2001/Lint-Template-Sky.git"
   },
   "keywords": [
     "eslint",
+    "prettier",
+    "lint-staged",
     "config",
-    "standard"
+    "template"
   ],
   "author": "CSY",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skyclouds2001/Eslint-Template-Sky/issues"
+    "url": "https://github.com/skyclouds2001/Lint-Template-Sky/issues"
   },
-  "homepage": "https://github.com/skyclouds2001/Eslint-Template-Sky#readme",
+  "homepage": "https://github.com/skyclouds2001/Lint-Template-Sky#readme",
   "devDependencies": {
     "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
