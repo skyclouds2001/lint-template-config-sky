@@ -31,6 +31,11 @@
   },
   "plugins": ["@typescript-eslint"],
   "globals": {},
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
     "array-callback-return": [
       "error",
