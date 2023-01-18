@@ -12,14 +12,14 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skyclouds2001/Lint-Template-Sky.git"
+    "url": "git+https://github.com/skyclouds2001/lint-template-config-sky.git"
   },
   "author": "CSY",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/skyclouds2001/Lint-Template-Sky/issues"
+    "url": "https://github.com/skyclouds2001/lint-template-config-sky/issues"
   },
-  "homepage": "https://github.com/skyclouds2001/Lint-Template-Sky#readme",
+  "homepage": "https://github.com/skyclouds2001/lint-template-config-sky#readme",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
