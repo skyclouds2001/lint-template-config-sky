@@ -10,6 +10,7 @@
   },
   "extends": [
     "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
     "plugin:promise/recommended",
     "plugin:n/recommended",
     "plugin:import/recommended",
@@ -19,6 +20,7 @@
     "plugin:react-hooks/recommended",
     "plugin:prettier/recommended"
   ],
+  "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaVersion": "latest",
     "sourceType": "module",
@@ -26,7 +28,7 @@
       "jsx": true
     }
   },
-  "plugins": [],
+  "plugins": ["@typescript-eslint"],
   "globals": {},
   "rules": {
     "array-callback-return": [
