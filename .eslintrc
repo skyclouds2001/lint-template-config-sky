@@ -18,6 +18,8 @@
     "plugin:vue/vue3-recommended",
     "plugin:react/recommended",
     "plugin:react-hooks/recommended",
+    "plugin:security/recommended",
+    "plugin:jsx-a11y/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "vue-eslint-parser",
