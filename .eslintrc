@@ -20,6 +20,8 @@
     "plugin:react-hooks/recommended",
     "plugin:security/recommended",
     "plugin:jsx-a11y/recommended",
+    "plugin:json/recommended",
+    "plugin:markdown/recommended",
     "plugin:prettier/recommended"
   ],
   "parser": "vue-eslint-parser",
@@ -31,7 +33,7 @@
       "jsx": true
     }
   },
-  "plugins": ["@typescript-eslint"],
+  "plugins": ["@typescript-eslint", "html"],
   "globals": {},
   "settings": {
     "react": {
