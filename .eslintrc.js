@@ -50,6 +50,7 @@ module.exports = {
         'plugin:playwright/playwright-test',
         'plugin:cypress/recommended',
       ],
+      plugins: ['vitest'],
     },
   ],
   rules: {
