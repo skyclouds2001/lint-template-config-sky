@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     'stylelint-config-standard',
     'stylelint-config-recess-order',
-    'stylelint-config-prettier',
+    'stylelint-prettier/recommended',
   ],
   rules: {},
   plugins: ['stylelint-order'],
@@ -25,7 +25,10 @@ module.exports = {
     },
     {
       files: ['**/*.scss'],
-      extends: ['stylelint-config-standard-scss', 'stylelint-config-prettier-scss'],
+      extends: [
+        'stylelint-config-standard-scss',
+        'stylelint-config-prettier-scss',
+      ],
     },
     {
       files: ['**/*.less'],
