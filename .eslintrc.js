@@ -33,13 +33,25 @@ module.exports = {
       jsx: true,
     },
   },
-  plugins: ['@typescript-eslint', 'html'],
+  plugins: ['@typescript-eslint', 'html', 'tsdoc'],
   globals: {},
   settings: {
     react: {
       version: 'detect',
     },
   },
+  overrides: [
+    {
+      files: ['**/tests/**/*.[jt]s?(x)'],
+      extends: [
+        'plugin:jest/recommended',
+        'plugin:jest-dom/recommended',
+        'plugin:testing-library/react',
+        'plugin:playwright/playwright-test',
+        'plugin:cypress/recommended',
+      ],
+    },
+  ],
   rules: {
     'array-callback-return': [
       'error',
