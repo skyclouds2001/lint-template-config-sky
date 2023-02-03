@@ -56,6 +56,7 @@ module.exports = {
       extends: [
         'plugin:jest/recommended',
         'plugin:jest-dom/recommended',
+        'plugin:testing-library/vue',
         'plugin:testing-library/react',
         'plugin:playwright/playwright-test',
         'plugin:cypress/recommended',
