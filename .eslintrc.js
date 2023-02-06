@@ -32,6 +32,9 @@ module.exports = {
     ecmaFeatures: {
       jsx: true,
     },
+    project: 'tsconfig.json',
+    tsconfigRootDir: '.',
+    extraFileExtensions: ['.vue', '.json', '.html', '.md', '.mdx'],
   },
   plugins: ['@typescript-eslint', 'html', 'tsdoc'],
   globals: {},
