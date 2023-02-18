@@ -41,7 +41,6 @@ specifiers:
   stylelint-config-standard: ^29.0.0
   stylelint-config-standard-scss: ^6.1.0
   stylelint-config-standard-vue: ^1.0.0
-  stylelint-order: ^6.0.1
   stylelint-stylus: ^0.17.1
   sugarss: ^4.0.1
   typescript: ^4.9.5
@@ -87,7 +86,6 @@ devDependencies:
   stylelint-config-standard: 29.0.0_stylelint@14.16.1
   stylelint-config-standard-scss: 6.1.0_w5gtdy6oq4ictd5o4eu6befejy
   stylelint-config-standard-vue: 1.0.0_kbto3rg3njmczth2rrsgfnlsqa
-  stylelint-order: 6.0.1_stylelint@14.16.1
   stylelint-stylus: 0.17.1_stylelint@14.16.1
   sugarss: 4.0.1_postcss@8.4.21
   typescript: 4.9.5
@@ -2630,14 +2628,6 @@ packages:
       postcss: 8.4.21
     dev: true
 
-  /postcss-sorting/8.0.1_postcss@8.4.21:
-    resolution: {integrity: sha512-go9Zoxx7KQH+uLrJ9xa5wRErFeXu01ydA6O8m7koPXkmAN7Ts//eRcIqjo0stBR4+Nir2gMYDOWAOx7O5EPUZA==}
-    peerDependencies:
-      postcss: ^8.4.20
-    dependencies:
-      postcss: 8.4.21
-    dev: true
-
   /postcss-styl/0.12.3:
     resolution: {integrity: sha512-8I7Cd8sxiEITIp32xBK4K/Aj1ukX6vuWnx8oY/oAH35NfQI4OZaY5nd68Yx8HeN5S49uhQ6DL0rNk0ZBu/TaLg==}
     engines: {node: ^8.10.0 || ^10.13.0 || ^11.10.1 || >=12.13.0}
@@ -3187,16 +3177,6 @@ packages:
     dependencies:
       postcss: 8.4.21
       postcss-sorting: 7.0.1_postcss@8.4.21
-      stylelint: 14.16.1
-    dev: true
-
-  /stylelint-order/6.0.1_stylelint@14.16.1:
-    resolution: {integrity: sha512-C9gJDZArRBZvn+4MPgggwYTp7dK49WPnYa5+6tBEkZnW/YWj4xBVNJdQjIik14w5orlF9RqFpYDHN0FPWIFOSQ==}
-    peerDependencies:
-      stylelint: ^14.0.0
-    dependencies:
-      postcss: 8.4.21
-      postcss-sorting: 8.0.1_postcss@8.4.21
       stylelint: 14.16.1
     dev: true
 
