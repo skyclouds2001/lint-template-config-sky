@@ -36,9 +36,5 @@ module.exports = {
       files: ['**/*.sss'],
       customSyntax: 'sugarss',
     },
-    {
-      files: ['**/*.js', '**/*.jsx', '**/*.ts', '**/*.tsx'],
-      customSyntax: '@stylelint/postcss-css-in-js',
-    },
   ],
 }
