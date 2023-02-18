@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['stylelint-config-standard', 'stylelint-config-recess-order', 'stylelint-prettier/recommended'],
+  extends: ['stylelint-config-standard', 'stylelint-config-recess-order'],
   rules: {},
   plugins: ['stylelint-order'],
   overrides: [
