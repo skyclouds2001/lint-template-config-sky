@@ -9,6 +9,7 @@ module.exports = {
     worker: true,
   },
   extends: [
+    'standard-with-typescript',
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
     'plugin:promise/recommended',
@@ -36,7 +37,7 @@ module.exports = {
     tsconfigRootDir: '.',
     extraFileExtensions: ['.vue', '.json', '.html', '.md', '.mdx'],
   },
-  plugins: ['@typescript-eslint', 'html', 'tsdoc'],
+  plugins: ['html', 'tsdoc'],
   globals: {},
   rules: {},
   settings: {
